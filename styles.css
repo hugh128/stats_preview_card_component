@@ -165,7 +165,7 @@ body {
     }
 }
 
-@media screen and (max-width: 1093px) {
+@media screen and (max-width: 1043px) {
     .card__texts {
         padding: 40px;
     }
