@@ -124,6 +124,126 @@ body {
 
 /* Resaponsive web desing */
 
+@media screen and (max-width: 1292px) {
+    .card__title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1228px) {
+    .card__title {
+        font-size: 27px;
+        padding-bottom: 5px;
+    }
+
+    .card__paragraph,
+    .card__stats {
+        width: 90%;
+    }
+
+    .card__stats {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1175px) {
+    .card__texts {
+        padding: 50px;
+    }
+
+    .card__stats {
+        flex-wrap: wrap;
+    }
+
+    .card__paragraph,
+    .card__stats {
+        width: 100%;
+    }
+
+    .card__items {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 1093px) {
+    .card__texts {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 1019px) {
+    .container {
+        height: 100%;
+    }
+
+    .card {
+        flex-direction: column;
+        max-width: 75%;
+        height: auto;
+        margin: 24% 5%;
+    }
+
+    .card__texts {
+        order: 2;
+        padding: 35px;
+        text-align: center;
+    }
+
+    .card__title {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+    .card__paragraph,
+    .card__stats {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .card__paragraph {
+        padding-top: 12px;
+    }
+
+    .card__stats {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 38px;
+    }
+
+    .card__items:nth-child(2) {
+        padding: 35px 0;
+    }
+
+    .card__picture {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card__image {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card__color-correction {
+        border-radius: 10px 10px 0 0;
+    }    
+}
+
+@media screen and (max-width: 512px) {
+    .card {
+        max-width: 85%;
+    }
+
+    .card__title {
+        font-size: 27px;
+    }
+
+    .card__paragraph,
+    .card__stats {
+        padding: 0 5px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .container {
         height: 100%;
@@ -143,13 +263,14 @@ body {
     }
 
     .card__title {
-    font-size: 27px;
-    padding-top: 5px;
+        font-size: 27px;
+        padding-top: 5px;
     }
 
     .card__paragraph,
     .card__stats {
         width: 100%;
+        padding: 0;
     }
 
     .card__paragraph {
