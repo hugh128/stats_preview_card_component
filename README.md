@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/hugh128/stats_preview_card_component)
+- Live Site URL: (https://hugh128.github.io/stats_preview_card_component/)
 
 ## My process
 The first step in creating the statistics card was to create two containers; I used the first container to center the card on the screen and indicate the size that the card would occupy on the screen; I used the second container to indicate the position of the elements of the card; I divided the card into two blocks, the first block (the left block in the desktop view and the bottom block in the mobile view) contains the text of the card and the second block contains the image of the card.
