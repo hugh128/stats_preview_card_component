@@ -42,6 +42,7 @@ body {
     background: var(--card-background);
     border-radius: 10px;
     max-width: 81%;
+    max-width: 1107px;
     height: 446px;
     margin: 5%;
 }
